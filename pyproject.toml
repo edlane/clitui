@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "clitui"
+version = "0.1.0"
+description = "Dynamic TUI generator for arbitrary Linux CLI tools"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "textual>=0.70.0",
+    "requests>=2.31.0",
+]
+
+[project.scripts]
+clitui = "clitui.cli:main"
