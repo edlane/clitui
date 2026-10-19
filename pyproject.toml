@@ -9,8 +9,9 @@ description = "Dynamic TUI generator for arbitrary Linux CLI tools"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
-    "textual>=0.70.0",
+    "urwid>=4.0.0",
     "requests>=2.31.0",
+    "rich>=13.0.0",
 ]
 
 [project.scripts]

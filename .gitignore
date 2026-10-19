@@ -20,3 +20,7 @@ build/
 .idea/
 *.swp
 *~
+
+# Archives and build artifacts
+*.tar.gz
+repo.tar.gz
